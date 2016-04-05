@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A0F7F211C96BC610076BE41 /* JYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F7F201C96BC610076BE41 /* JYHomeViewController.m */; };
+		9A0F7F271C96BD2B0076BE41 /* JYHomeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F7F261C96BD2B0076BE41 /* JYHomeFooterView.m */; };
+		9A0F7F2B1C96BD660076BE41 /* JYHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F7F291C96BD660076BE41 /* JYHomeCell.m */; };
+		9A0F7F2C1C96BD660076BE41 /* JYHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A0F7F2A1C96BD660076BE41 /* JYHomeCell.xib */; };
+		9A0F7F2F1C96BDA00076BE41 /* JYHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F7F2E1C96BDA00076BE41 /* JYHome.m */; };
+		9A0F7F321C96BF6C0076BE41 /* JYHomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F7F311C96BF6C0076BE41 /* JYHomeHeaderView.m */; };
+		9A0F7F341C96BF8F0076BE41 /* JYHomeHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A0F7F331C96BF8F0076BE41 /* JYHomeHeaderView.xib */; };
+		9A0F7F361C96BFDC0076BE41 /* JYHomeFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A0F7F351C96BFDC0076BE41 /* JYHomeFooterView.xib */; };
+		9A438AFC1CAAA9E200197CEA /* JYDropdownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A438AF91CAAA9E200197CEA /* JYDropdownMenu.m */; };
+		9A438AFD1CAAA9E200197CEA /* JYDropdownTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A438AFB1CAAA9E200197CEA /* JYDropdownTitleButton.m */; };
+		9AA5EC6F1CA1A7E50041D4D4 /* JYDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA5EC6E1CA1A7E40041D4D4 /* JYDetailView.xib */; };
 		9ABF0A201C944DF9001AE4D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABF0A1F1C944DF9001AE4D6 /* main.m */; };
 		9ABF0A231C944DF9001AE4D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABF0A221C944DF9001AE4D6 /* AppDelegate.m */; };
-		9ABF0A261C944DF9001AE4D6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABF0A251C944DF9001AE4D6 /* FirstViewController.m */; };
-		9ABF0A291C944DF9001AE4D6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABF0A281C944DF9001AE4D6 /* SecondViewController.m */; };
 		9ABF0A2C1C944DF9001AE4D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ABF0A2A1C944DF9001AE4D6 /* Main.storyboard */; };
 		9ABF0A2E1C944DF9001AE4D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ABF0A2D1C944DF9001AE4D6 /* Assets.xcassets */; };
 		9ABF0A311C944DF9001AE4D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ABF0A2F1C944DF9001AE4D6 /* LaunchScreen.storyboard */; };
 		9ABF0A3C1C944DF9001AE4D6 /* JYStickyRiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABF0A3B1C944DF9001AE4D6 /* JYStickyRiceTests.m */; };
 		9ABF0A471C944DF9001AE4D6 /* JYStickyRiceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABF0A461C944DF9001AE4D6 /* JYStickyRiceUITests.m */; };
+		9AEA08C11CA1841B004003F6 /* JYDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEA08C01CA1841B004003F6 /* JYDetail.m */; };
+		9AF3BC761CA1030B00080461 /* JYDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3BC751CA1030B00080461 /* JYDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +47,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A0F7F1F1C96BC610076BE41 /* JYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JYHomeViewController.h; path = Class/Controller/JYHomeViewController.h; sourceTree = "<group>"; };
+		9A0F7F201C96BC610076BE41 /* JYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JYHomeViewController.m; path = Class/Controller/JYHomeViewController.m; sourceTree = "<group>"; };
+		9A0F7F251C96BD2B0076BE41 /* JYHomeFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JYHomeFooterView.h; path = Class/View/JYHomeFooterView.h; sourceTree = "<group>"; };
+		9A0F7F261C96BD2B0076BE41 /* JYHomeFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JYHomeFooterView.m; path = Class/View/JYHomeFooterView.m; sourceTree = "<group>"; };
+		9A0F7F281C96BD660076BE41 /* JYHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JYHomeCell.h; path = Class/View/JYHomeCell.h; sourceTree = "<group>"; };
+		9A0F7F291C96BD660076BE41 /* JYHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JYHomeCell.m; path = Class/View/JYHomeCell.m; sourceTree = "<group>"; };
+		9A0F7F2A1C96BD660076BE41 /* JYHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JYHomeCell.xib; path = Class/View/JYHomeCell.xib; sourceTree = "<group>"; };
+		9A0F7F2D1C96BDA00076BE41 /* JYHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JYHome.h; path = Class/Model/JYHome.h; sourceTree = "<group>"; };
+		9A0F7F2E1C96BDA00076BE41 /* JYHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JYHome.m; path = Class/Model/JYHome.m; sourceTree = "<group>"; };
+		9A0F7F301C96BF6C0076BE41 /* JYHomeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JYHomeHeaderView.h; path = Class/View/JYHomeHeaderView.h; sourceTree = "<group>"; };
+		9A0F7F311C96BF6C0076BE41 /* JYHomeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JYHomeHeaderView.m; path = Class/View/JYHomeHeaderView.m; sourceTree = "<group>"; };
+		9A0F7F331C96BF8F0076BE41 /* JYHomeHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JYHomeHeaderView.xib; path = Class/View/JYHomeHeaderView.xib; sourceTree = "<group>"; };
+		9A0F7F351C96BFDC0076BE41 /* JYHomeFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JYHomeFooterView.xib; path = Class/View/JYHomeFooterView.xib; sourceTree = "<group>"; };
+		9A438AF81CAAA9E200197CEA /* JYDropdownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYDropdownMenu.h; sourceTree = "<group>"; };
+		9A438AF91CAAA9E200197CEA /* JYDropdownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYDropdownMenu.m; sourceTree = "<group>"; };
+		9A438AFA1CAAA9E200197CEA /* JYDropdownTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYDropdownTitleButton.h; sourceTree = "<group>"; };
+		9A438AFB1CAAA9E200197CEA /* JYDropdownTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYDropdownTitleButton.m; sourceTree = "<group>"; };
+		9AA5EC6E1CA1A7E40041D4D4 /* JYDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JYDetailView.xib; path = Class/View/JYDetailView.xib; sourceTree = "<group>"; };
 		9ABF0A1B1C944DF9001AE4D6 /* JYStickyRice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYStickyRice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABF0A1F1C944DF9001AE4D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9ABF0A211C944DF9001AE4D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9ABF0A221C944DF9001AE4D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9ABF0A241C944DF9001AE4D6 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		9ABF0A251C944DF9001AE4D6 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		9ABF0A271C944DF9001AE4D6 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		9ABF0A281C944DF9001AE4D6 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		9ABF0A2B1C944DF9001AE4D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9ABF0A2D1C944DF9001AE4D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9ABF0A301C944DF9001AE4D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +79,10 @@
 		9ABF0A421C944DF9001AE4D6 /* JYStickyRiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYStickyRiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABF0A461C944DF9001AE4D6 /* JYStickyRiceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYStickyRiceUITests.m; sourceTree = "<group>"; };
 		9ABF0A481C944DF9001AE4D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AEA08BF1CA1841B004003F6 /* JYDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JYDetail.h; path = Class/Model/JYDetail.h; sourceTree = "<group>"; };
+		9AEA08C01CA1841B004003F6 /* JYDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JYDetail.m; path = Class/Model/JYDetail.m; sourceTree = "<group>"; };
+		9AF3BC741CA1030B00080461 /* JYDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JYDetailViewController.h; path = Class/Controller/JYDetailViewController.h; sourceTree = "<group>"; };
+		9AF3BC751CA1030B00080461 /* JYDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JYDetailViewController.m; path = Class/Controller/JYDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +110,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A0F7F131C96A84B0076BE41 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9AB265051CA4EE9E0092A153 /* JYDropdownMenu */,
+				9A0F7F1E1C96BB090076BE41 /* 首页 */,
+				9AF3BC6D1CA1024700080461 /* 详情 */,
+				9A0F7F141C96A8540076BE41 /* Others */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		9A0F7F141C96A8540076BE41 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				9ABF0A211C944DF9001AE4D6 /* AppDelegate.h */,
+				9ABF0A221C944DF9001AE4D6 /* AppDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		9A0F7F151C96A8560076BE41 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A0F7F1F1C96BC610076BE41 /* JYHomeViewController.h */,
+				9A0F7F201C96BC610076BE41 /* JYHomeViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9A0F7F161C96A8580076BE41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A0F7F301C96BF6C0076BE41 /* JYHomeHeaderView.h */,
+				9A0F7F311C96BF6C0076BE41 /* JYHomeHeaderView.m */,
+				9A0F7F331C96BF8F0076BE41 /* JYHomeHeaderView.xib */,
+				9A0F7F251C96BD2B0076BE41 /* JYHomeFooterView.h */,
+				9A0F7F261C96BD2B0076BE41 /* JYHomeFooterView.m */,
+				9A0F7F351C96BFDC0076BE41 /* JYHomeFooterView.xib */,
+				9A0F7F281C96BD660076BE41 /* JYHomeCell.h */,
+				9A0F7F291C96BD660076BE41 /* JYHomeCell.m */,
+				9A0F7F2A1C96BD660076BE41 /* JYHomeCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9A0F7F171C96A8770076BE41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A0F7F2D1C96BDA00076BE41 /* JYHome.h */,
+				9A0F7F2E1C96BDA00076BE41 /* JYHome.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9A0F7F1E1C96BB090076BE41 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				9A0F7F171C96A8770076BE41 /* Model */,
+				9A0F7F161C96A8580076BE41 /* View */,
+				9A0F7F151C96A8560076BE41 /* Controller */,
+			);
+			name = "首页";
+			sourceTree = "<group>";
+		};
+		9AB265051CA4EE9E0092A153 /* JYDropdownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				9A438AFA1CAAA9E200197CEA /* JYDropdownTitleButton.h */,
+				9A438AFB1CAAA9E200197CEA /* JYDropdownTitleButton.m */,
+				9A438AF81CAAA9E200197CEA /* JYDropdownMenu.h */,
+				9A438AF91CAAA9E200197CEA /* JYDropdownMenu.m */,
+			);
+			name = JYDropdownMenu;
+			sourceTree = "<group>";
+		};
 		9ABF0A121C944DF9001AE4D6 = {
 			isa = PBXGroup;
 			children = (
@@ -104,16 +208,7 @@
 		9ABF0A1D1C944DF9001AE4D6 /* JYStickyRice */ = {
 			isa = PBXGroup;
 			children = (
-				9ABF0A211C944DF9001AE4D6 /* AppDelegate.h */,
-				9ABF0A221C944DF9001AE4D6 /* AppDelegate.m */,
-				9ABF0A241C944DF9001AE4D6 /* FirstViewController.h */,
-				9ABF0A251C944DF9001AE4D6 /* FirstViewController.m */,
-				9ABF0A271C944DF9001AE4D6 /* SecondViewController.h */,
-				9ABF0A281C944DF9001AE4D6 /* SecondViewController.m */,
-				9ABF0A2A1C944DF9001AE4D6 /* Main.storyboard */,
-				9ABF0A2D1C944DF9001AE4D6 /* Assets.xcassets */,
-				9ABF0A2F1C944DF9001AE4D6 /* LaunchScreen.storyboard */,
-				9ABF0A321C944DF9001AE4D6 /* Info.plist */,
+				9A0F7F131C96A84B0076BE41 /* Classes */,
 				9ABF0A1E1C944DF9001AE4D6 /* Supporting Files */,
 			);
 			path = JYStickyRice;
@@ -122,6 +217,10 @@
 		9ABF0A1E1C944DF9001AE4D6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9ABF0A2A1C944DF9001AE4D6 /* Main.storyboard */,
+				9ABF0A2D1C944DF9001AE4D6 /* Assets.xcassets */,
+				9ABF0A2F1C944DF9001AE4D6 /* LaunchScreen.storyboard */,
+				9ABF0A321C944DF9001AE4D6 /* Info.plist */,
 				9ABF0A1F1C944DF9001AE4D6 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -143,6 +242,42 @@
 				9ABF0A481C944DF9001AE4D6 /* Info.plist */,
 			);
 			path = JYStickyRiceUITests;
+			sourceTree = "<group>";
+		};
+		9AF3BC6D1CA1024700080461 /* 详情 */ = {
+			isa = PBXGroup;
+			children = (
+				9AF3BC6F1CA1026000080461 /* View */,
+				9AF3BC6E1CA1025E00080461 /* Controller */,
+			);
+			name = "详情";
+			sourceTree = "<group>";
+		};
+		9AF3BC6E1CA1025E00080461 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9AF3BC701CA1026200080461 /* Model */,
+				9AF3BC741CA1030B00080461 /* JYDetailViewController.h */,
+				9AF3BC751CA1030B00080461 /* JYDetailViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9AF3BC6F1CA1026000080461 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9AA5EC6E1CA1A7E40041D4D4 /* JYDetailView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9AF3BC701CA1026200080461 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9AEA08BF1CA1841B004003F6 /* JYDetail.h */,
+				9AEA08C01CA1841B004003F6 /* JYDetail.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,9 +386,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AA5EC6F1CA1A7E50041D4D4 /* JYDetailView.xib in Resources */,
+				9A0F7F341C96BF8F0076BE41 /* JYHomeHeaderView.xib in Resources */,
 				9ABF0A311C944DF9001AE4D6 /* LaunchScreen.storyboard in Resources */,
 				9ABF0A2E1C944DF9001AE4D6 /* Assets.xcassets in Resources */,
 				9ABF0A2C1C944DF9001AE4D6 /* Main.storyboard in Resources */,
+				9A0F7F2C1C96BD660076BE41 /* JYHomeCell.xib in Resources */,
+				9A0F7F361C96BFDC0076BE41 /* JYHomeFooterView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,10 +417,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ABF0A291C944DF9001AE4D6 /* SecondViewController.m in Sources */,
 				9ABF0A231C944DF9001AE4D6 /* AppDelegate.m in Sources */,
-				9ABF0A261C944DF9001AE4D6 /* FirstViewController.m in Sources */,
+				9A0F7F321C96BF6C0076BE41 /* JYHomeHeaderView.m in Sources */,
+				9A438AFD1CAAA9E200197CEA /* JYDropdownTitleButton.m in Sources */,
+				9A0F7F271C96BD2B0076BE41 /* JYHomeFooterView.m in Sources */,
+				9AF3BC761CA1030B00080461 /* JYDetailViewController.m in Sources */,
+				9A0F7F2B1C96BD660076BE41 /* JYHomeCell.m in Sources */,
 				9ABF0A201C944DF9001AE4D6 /* main.m in Sources */,
+				9AEA08C11CA1841B004003F6 /* JYDetail.m in Sources */,
+				9A0F7F2F1C96BDA00076BE41 /* JYHome.m in Sources */,
+				9A438AFC1CAAA9E200197CEA /* JYDropdownMenu.m in Sources */,
+				9A0F7F211C96BC610076BE41 /* JYHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +653,7 @@
 				9ABF0A4D1C944DF9001AE4D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9ABF0A4E1C944DF9001AE4D6 /* Build configuration list for PBXNativeTarget "JYStickyRiceTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +662,7 @@
 				9ABF0A501C944DF9001AE4D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9ABF0A511C944DF9001AE4D6 /* Build configuration list for PBXNativeTarget "JYStickyRiceUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +671,7 @@
 				9ABF0A531C944DF9001AE4D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
